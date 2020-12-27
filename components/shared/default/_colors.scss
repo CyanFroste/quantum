@@ -1,0 +1,20 @@
+// color definitions 
+$beige: #EEF5DB;
+$orange-red-crayola: #FE5F55;
+$mustard: #FFDD4A;
+$maximum-yellow-red: #FFC857;
+$eerie-black: #141414;
+$viridian-green: #119DA4;
+$cyber-grape: #4B3F72;
+// ...
+
+// accessors
+$primary:$orange-red-crayola;
+$secondary: $maximum-yellow-red;
+$extra: $cyber-grape;
+$bg: $beige;
+$text: $eerie-black;
+
+// modified accessors
+$bg-elevated: lighten($bg, 20%);
+// ...
